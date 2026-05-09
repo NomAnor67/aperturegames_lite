@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Aperture</title>
+    <link rel="icon" type="image/x-icon" href="https://aperturescience.pages.dev/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://aperturescience.pages.dev/drivers/apstrap.min.css" rel="stylesheet">
+    <link href="https://aperturescience.pages.dev/drivers/agldrivers.css" rel="stylesheet">
+    <script src="https://aperturescience.pages.dev/drivers/agldrivers.js" defer></script>
+  </head>
+  
+  <body>
+         <meta
+      name="Free Documentaries"
+      content="With Documentaries, you can watch documentaries for free. We have a large collection of documentaries on various topics, including science, history, nature, and more. Our documentaries are sourced from YouTube and other platforms, and we provide a convenient way to watch them without ads or distractions."
+      data-rh="true"
+    />
+    <meta
+      name="keywords"
+      content="documentaries, free documentaries, watch documentaries online, science documentaries, history documentaries, nature documentaries, educational documentaries"
+      data-rh="true"
+    />
+    <header>
+  
+      <h1 style="color:rgb(179, 201, 223); text-align: center;">
+    Project Paloma<span style="color: yellow;">(LITE)</span>
+</h1> 
+      <nav class="ms-3">
+   <div class="centered">
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/index.html" class="menubutton">Home</a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm12" class="menubutton">FreezeNova</a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm4" class="menubutton">Duckmath</a>
+<a style="color: rgb(255, 179, 0);" href="https://projectpaloma.pages.dev/iframehtm11" class="menubutton">PeteZah</a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm3" class="menubutton">EduToolsLab</a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/duck-run" class="menubutton">DuckRun</a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/holt" class="menubutton">Holt</a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm1" class="menubutton">Completely Science<b style="color: rgb(153, 131, 59);">(FREEZENOVA)</b></a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm5" class="menubutton">Natural Habitat Shorts</a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm6" class="menubutton">SERP Games</a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm9" class="menubutton">The Sound of Science</a>  
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm7" class="menubutton">MP3Juice <b style="color: rgb(251, 255, 0);">(YouTube alt.)</b></a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm10" class="menubutton">AgarioJuego</a>
+<a style="color: rgb(255, 179, 0);" href="https://projectpaloma.pages.dev/iframehtm2" class="menubutton">PlayHydra</a>
+<a style="color: rgb(255, 179, 0);" href="https://projectpaloma.pages.dev/iframehtm8" class="menubutton">NowGG Games</a>
+<a style="color: rgb(255, 179, 0);" href="https://projectpaloma.pages.dev/iframehtm13" class="menubutton">Gamegab</a>
+<a style="color: rgb(255, 179, 0);" href="https://projectpaloma.pages.dev/iframehtm14" class="menubutton">Secin Games</a>
+<a href="https://projectpaloma.pages.dev/iframehtm15" class="menubutton">YouTube Video Downloader <b style="color: rgb(0, 255, 21);">(ALPHA)</b></a>
+<a style="color: rgb(255, 179, 0);" href="https://projectpaloma.pages.dev/iframehtm16" class="menubutton">PlutoTV</a>
+<a style="color: rgb(0, 255, 21);" href="https://projectpaloma.pages.dev/iframehtm17" class="menubutton">Hypackel Games</a>
+<a href="https://projectpaloma.pages.dev/iframehtm18" class="menubutton">Rammerhead <b style="color: rgb(0, 255, 21);">(ALPHA)</b></a>
+          <div></div>
+          <div></div>
+          <div class="centered">
+            <label for="colorSelect" style="color: rgb(46, 77, 203);">Select theme:</label>
+    <select id="colorSelect" onchange="changeBackground(this)">
+         <option value="rgb(37, 37, 37)">Dark Mode</option>
+        <option value="rgb(80, 126, 123)">Spring Theme</option>
+        <option value="rgb(165, 14, 137)">Pretty Princess Pink</option>
+       
+    </select>
+    <button id="retractHeaderBtn" class="menubutton" onclick="retractHeader()" style="margin-left: 10px;">⬆ Retract</button>
+    
+</div>
+    <script>
+        function changeBackground(selectElement) {
+            const selectedColor = selectElement.value;
+            document.body.style.backgroundColor = selectedColor;
+        }
+        function retractHeader() {
+            document.querySelector('header').classList.add('retracted');
+            document.getElementById('HeaderBtn').style.display = 'block';
+            document.getElementById('retractHeaderBtn').style.display = 'none';
+        }
+        function showHeader() {
+            document.querySelector('header').classList.remove('retracted');
+            document.getElementById('HeaderBtn').style.display = 'none';
+            document.getElementById('retractHeaderBtn').style.display = 'inline-block';
+        }
+    </script>
+      </nav>
+      <div></div>
+    </header>
+    <button id="HeaderBtn" onclick="showHeader()">⬇</button>
+    <main> 
+      <body style="background-color: rgb(37, 37, 37);"
+        <body style="background-color: rgb(37, 37, 37);">
+         <iframe src="https://gamegab.com/" style="width:100%; height:100vh; border:none;" allowfullscreen></iframe>
+         <div></div>
+        
+        </body>
+    </main>
+    <footer></footer>
+  </body>
+</html>
